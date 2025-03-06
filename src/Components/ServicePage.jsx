@@ -35,7 +35,8 @@ const ServicePage = () => {
        
             <h2>Begin your real estate journey today!</h2>
             <p>Our team of experienced real estate professionals is dedicated to helping you achieve your real estate goals. Contact us today to learn more about our services and how we can help you achieve your real estate dreams.</p>
-            <button className='btn btn-outline-warning'>< ContactNavigate bText="Get in Touch"/></button>
+            <ContactNavigate bText="Get in Touch" className="btn btn-outline-warning" />
+
       </div>
     </>
 

@@ -94,7 +94,8 @@ const ProjectsPage = () => {
 
                 <h2>Begin your real estate journey today!</h2>
                 <p>Discover a curated selection of real estate projects designed to meet your needs. From modern residential spaces to commercial developments, find the perfect property that aligns with your vision</p>
-                <button className='btn btn-outline-warning'>< ContactNavigate bText="Get in Touch"/></button>
+                <ContactNavigate bText="Get in Touch" className="btn btn-outline-warning" />
+
             </div>
         </div>
 

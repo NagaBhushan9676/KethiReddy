@@ -47,14 +47,7 @@ const SuperNav = () => {
         <li className="link"> <Link to='/services'>Services</Link></li>
         <li className="link"><a href="#">Contact Us</a></li>
       </ul>
-      {/* <div className="search">
-        <input type="text" placeholder="Search" />
-        <span><i className="ri-search-line"></i></span>
-      </div> */}
-      {/* <div className="login">
-        <span><i className="ri-user-3-fill"></i></span>
-        Log In
-      </div> */}
+    
       <button onClick={() => setIsDrawerOpen(true)} >
           <Menu size={32} className=" menu_button " />
         </button> 

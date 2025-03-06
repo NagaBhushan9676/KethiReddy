@@ -2,13 +2,13 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Footer from './Footer';
 
-const ContactNavigate = ({bText}) => {
+const ContactNavigate = ({ bText, className }) => {
     const navigate = useNavigate();
     return (
-        <div>
-            <button onClick={() => navigate("/Footer")}>{bText}</button>
-        </div>
+        <button className={className} onClick={() => navigate("/Footer")}>
+            {bText}
+        </button>
     );
-}
+};
 
 export default ContactNavigate;
