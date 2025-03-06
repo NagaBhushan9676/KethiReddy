@@ -11,7 +11,7 @@ import WhyChooseus from './WhyChooseus'
 import Portifolio from './Portifolio'
 import Introduction from './Introduction'
 import SwiperCarousel from './SwiperCarousel'
-import ServiceFile from './Servicefile'
+import ServiceFile from './ServiceFile'
 import ProjectCarouse from './ProjectCarouse;'
 
 const MainHome = () => {
