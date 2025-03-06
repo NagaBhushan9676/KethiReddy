@@ -84,7 +84,7 @@ function AnimatedRoutes() {
 // Main App Component
 function App() {
   return (
-    <Router basename="/Kethireddy/">
+    <Router >
       <SuperNav />
       <AnimatedRoutes />
     </Router>
